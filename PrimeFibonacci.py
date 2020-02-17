@@ -16,9 +16,7 @@ def generatePrime(n1, n2):
 def createCombinations():
     for i in range(len(primes)):
         for j in range(len(primes)):
-            if i == j:
-                continue
-            else:
+            if i != j:
                 new_number = str(primes[i]) + str(primes[j])
                 comb.append(new_number)
     
