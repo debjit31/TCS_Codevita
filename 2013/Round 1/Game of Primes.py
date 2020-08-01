@@ -35,7 +35,7 @@ for _ in range(int(input())):
 			aa = []
 			for i in range(len(pa)):
 				xn = gameofNumber(pa[i])
-				if xn == 1 or xn == 4:
+				if xn == 1:
 					aa.append(pa[i])
 			print(aa)
 			if n > len(aa):
